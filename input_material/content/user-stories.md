@@ -42,7 +42,7 @@ AS A ... I NEED TO ... SO THAT ...
 
 10. AS A manufacturer OR software developer I NEED a clear model for my customers’ future plans for handling content in different types of networked media environment SO THAT I can plan my product development.
 
-  *Category: Describe workflows*
+    *Category: Describe workflows*
 
 11. AS A manufacturer OR software developer I NEED to understand how technical (meta)data about the content is handled SO THAT I can plan my product development.
 
@@ -88,7 +88,7 @@ AS A ... I NEED TO ... SO THAT ...
 
 21. AS A manufacturer/software developer I NEED a universal way to discover and index content SO THAT I can build tools that work with any content, regardless of where, or in what form, it exists
 
-    **Category: Identity*
+    *Category: Identity*
 
 22. AS A content producer I NEED TO describe the relationship of my video, audio and data elements to a common timing reference SO THAT I can deduce the synchronisation relationship between the elements and with other events occurring in the same frame of reference.
 
@@ -111,6 +111,29 @@ AS A ... I NEED TO ... SO THAT ...
 27. AS A content producer I NEED TO keep a record of the production processes used to create a piece of finished content SO THAT I can easily reproduce it in a different format to get more value from it.
 
 28. AS A content producer I NEED TO keep a record of the original material used to create a piece of finished content SO THAT I can obtain the necessary rights to use it.
+
+## Additional User Stories (2018-05-09)
+
+### Subtitling
+29. AS A live subtitler I NEED TO receive incoming audio and video and create an output stream of subtitles with a recorded time relationship to this input media SO THAT I can match the timing of the incoming audio for later synchronisation.
+
+30. AS A playout provider I NEED TO create a live stream of subtitles derived from a prepared subtitle file, with a recorded time relationship to streams of audio and video SO THAT they can be correctly synchronised for presentation.
+
+31. AS A playout provider or encoding provider I NEED TO be able to switch between incoming streams of subtitles without introducing discontinuities SO THAT I can produce a single consistent output for a particular service. (e.g. transferring between prepared and live subtitles.)
+
+32. AS AN encoding provider I NEED TO be able to associate multiple subtitle streams with the same audio and video. (e.g. SO THAT I can produce multiple renditions of the same programme for different languages)
+
+33. AS A subtitle improver I NEED TO be able to process and modify subtitles whilst retaining the synchronisation relationship with the related audio and video SO THAT I can produce improved subtitle streams which remain synchronised with co-timed content. (For example to analyse the video and manipulate the subtitles to ensure that the subtitle positions do not obscure faces).
+
+### Pre-Production
+34. AS A content producer I NEED TO relate media clips to pre-production planning story elements (scripts) SO THAT I can speed up the shot selection and editing process (\*)
+
+35. AS A content producer I NEED TO associate media clips with additional production notes captured during the production process (e.g. scene and take number, talkback, good take/bad take info) SO THAT I can quickly access these notes during the post-production process (\*)
+
+36. AS A content producer I NEED TO be able to associate pre-production data (call lists, actor contracts etc) with media elements SO THAT I can automate the rights tracking processes (\*)
+
+(\*) We don't want to expand the scope of this activity to include identification of pre-production assets such as scripts and notes, however this activity should still provide sufficiently identifiable units of media to enable pre-production metadata to be associated with it.
+
 
 ## Summary
 
