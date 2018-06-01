@@ -16,4 +16,8 @@ A model has been developed consisting of a small number of entities. The intenti
 * [Motivation](content/motivation.md) for designing the model
 * [Explanation of the principles / approach](content/explanation-and-principles.md) behind the model
 
+## Additional Constructs
 
+As we progress through the modelling activity, some additional entities will be required to allow us to describe entities related to the core model. These are noted below:
+
+* [Similarity Clusters](content/definitions--Similarity-Cluster.md)
