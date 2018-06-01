@@ -9,3 +9,4 @@ The current set of application notes are listed below:
 1.  [Live Synchronisation](1-live-synchronisation.md)
 2.  [Live & File Playout Synchronisation](2-live-file-synchronisation.md)
 3.  [Split Essence Synchronisation](3-split-essence-synchronisation.md)
+4.  [API Access](4-api-access.md)
