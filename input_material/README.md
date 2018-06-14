@@ -21,3 +21,4 @@ A model has been developed consisting of a small number of entities. The intenti
 As we progress through the modelling activity, some additional entities will be required to allow us to describe entities related to the core model. These are noted below:
 
 * [Similarity Clusters](content/definitions--Similarity-Cluster.md)
+* [Content Relationships](content/understanding--Relationships.pptx)
