@@ -71,7 +71,6 @@ It is important to note that Time Context shifts are considered as a separate op
         *   New Time Values
         *   Ancestry requires: TDS to TDS and Similarity Cluster to Similarity Cluster mapping. Always 1:1 in terms of identity and input to output Data Objects. Time Values at output will refer to different input Time Values.
 
-------------------------------------------------------------
 
 *   Split (see also Combine)
     *   Takes input content which may consist of multiple components (for example multiple audio channels, or an SDI multiplex) and splits it into smaller units (for example single audio channels, or mono-essence components of a mux), without changing their timing relationship.
