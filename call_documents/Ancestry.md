@@ -59,11 +59,13 @@ An `Ancestry` relationship can be derived from a concatenation of `Ancestry` rel
 
 A common `Ancestry` relationship will be between 2 Similarity Clusters at the same level, eg. Source to Source or Flow to Flow. It would generally limit `F` by simply stating that the input was derived from output. It could additionally specify the input and output time ranges.
 
-The following are example `Ancestry` relationships specified using a simple notation:
-* for Source A was derived from Source B: **{Source A} was derived from {Source B}**
-* a time range of Source A was derived from a time range from Source B: **{Source A, [Ta1, Ta2]} was derived from {Source B, [Tb1, Tb2]}**
-* multiple inputs contributed to an output: **{Flow A, [Ta1, Ta2]} was derived from ({Flow B, [Tb1, Tb2]}, {Flow C, [Tc1, Tc2]})**
+Below are examples of `Ancestry` relationships specified using a simple notation. The notation is intended to identify the key parts of the relationship and is not meant to show how it should be implemented.
 
-
-
-[*Reference the ancestry examples in media operations documents rather than repeat them here*]
+* a complex set of operations with Source B, C and D as input resulted in a Source A. The details of the operations are ultimately not important at the edges of the production process and therefore the relationship is recorded as: **{Source A} was derived from {Source B}, {Source C} and {Source D}**
+* Flow B was time shifted for use in a composition, resulting in Flow A: **{Flow A} is {Flow B} time shifted by T**
+* the Source relationship follows from the above Flow relationship: **{Source A} is {Source B} time shifted by T**
+* Flow A is a transcode of Flow C. The intermediate Flow B, which is Flow A decoded, is not recorded in the relationship: **{Flow A} is a transcode of {Flow C}**
+* Flow A is a lossy transcode of another Flow in the same Source, resulting in a new generation number: **{Flow A} generation number is 2**
+* a time range of Source B was converted to monochrome video to produce a time range in Source A: **{Source A, [Ta1, Ta2]} is {Source B, [Tb1, Tb2]} converted to monochrome**
+* a time range of Source B and Source C were mixed together to produced a time range in Source A: **{Source A, [Ta1, Ta2]} is a mix of ({Source B, [Tb1, Tb2]} and {Source C, [Tc1, Tc2]})**
+* Source A switches between Source B and Source C. An Ancestry relationship is recorded for each time value or time range: **{Source A, [Ta1, Ta2]} is {Source B, [Tb1, Tb2]}, {Source A, [Ta3]} is {Source C, [Tc3]}, {Source A, [Ta4]} is {Source B, [Tb4]}, etc.**
