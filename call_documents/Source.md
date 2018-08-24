@@ -61,7 +61,7 @@ This is convenient because it is then easy to refer to the entire collection &nd
 
 An alternative would be, say, to traverse a web of ancestry relationships between `TDS`s &ndash; possible but not very convenient.
 
-Further, we say that all `TDS`s that are members of a `SC` have the same `Time Context` so it is then possible to easily reference time points within these `TDS`s in a consistent way.
+Further, we say that all `TDS`s that are members of a `SC` have the same `Time Context` so it is then possible to easily reference time-points within these `TDS`s in a consistent way.
 
 ### `Source` definition
 
