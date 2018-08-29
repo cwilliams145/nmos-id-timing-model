@@ -55,7 +55,7 @@ The following use cases have been synthesised from the above user story analysis
 
  ### A reminder about Similarity Clusters
 
-A `Similarity Cluster` (`SC`) allows us to define an ID for a collection of `TDS`s that are to some degree similar.
+A `Similarity Cluster` (`SC`) allows us to define an ID for a collection of `TDS`s that are to some degree similar (they must all be associated with a single `Time Varying Information`).
 
 This is convenient because it is then easy to refer to the entire collection &ndash; we just need to use one ID.
 
