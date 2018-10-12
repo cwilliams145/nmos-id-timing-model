@@ -6,6 +6,8 @@
 
 
 
+Note: "time-point" is used below to refer to a precise (zero duration) instant in time
+
 
 ## `Time Context`
 
