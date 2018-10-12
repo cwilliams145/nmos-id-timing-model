@@ -52,17 +52,41 @@ A `Flow` is defined by the following statements:
   * are members of the same `Source`
   * are representations of (almost) the same quality / accuracy (in other words, these `TDS`s all: result in the same "presentation"; represent the same "baseband" signal)
   * comply with the restrictions, if any, given by the definition of the "level" of `Flow` for the scenario (such as restrictions on "format")
-  * have `Data Object`s at the same time-points (in-line with the practical limits of the `time_unit`s used)
+  * have `Data Object`s at the same time-points
   * belong to no other `Flow`
 
 Notes:
 
 * The "(almost) the same quality / accuracy" constraint allows `TDS`s with very small differences in "baseband" signal to be members of the same `Flow`. For example, if a lossy video compression process with a fixed configuration processes a video twice the `TDS`s produced may not decode to identical "baseband" video signals for various reasons (such as random processes used in the video encoder) &ndash; however, as long as these differences are "negligible" then these `TDS`s could still be members of the same `Flow`.
+
 * There is no constraint that requires the properties of the "presentation" / "baseband" to be static. For example, the dimensions of a video or its framerate could change over time &ndash; but these properties would change in the same way across all `TDS`s that are members of a `Flow`.
-* Across the `TDS` members of a `Flow` the `Data Object`s will be at the same time-points (in-line with the practical limits of the `time_unit`s used) but not necessarily the same `Time Value`s (not least because different `time_unit`s may be used). Note that the intent is to restrict the time-points at which a member `TDS` can potentially have `Data Object`s rather than to constrain all member `TDS`s to be populated with `Data Object`s over the same period of time.
+
+* Across the `TDS` members of a `Flow` the `Data Object`s will be at the same time-points but not necessarily the same `Time Value`s (not least because different `time_unit`s may be used). Note that the intent is to restrict the time-points at which a member `TDS` can *potentially* have `Data Object`s rather than to constrain all member `TDS`s to be populated with `Data Object`s over the same period of time. The following example scenarios illustrate how `TDS` members of a `Flow` may use different means to indicate the same time-points:
+
+  * Example 1 &ndash; A `TDS` may locate a `Data Object` in time as follows:
+
+    * A count of 2 is provided
+    * The units are given as 1/48000 seconds
+
+  * Example 2 &ndash; A `TDS` may locate a `Data Object` in time as follows:
+
+    * A count of 42 is provided
+    * The units are given as microseconds
+    * The "media rate" is indicated to be 48kHz
+    * Systems are required to take into account the "media rate" when determining the precise time-point at which a `Data Object` is located &ndash; the `Data Object` is considered to be located at the closest media-rate "tick"
+
+  * In Examples 1 & 2 the `Data Object`s are at the same time-points. Therefore, these two `TDS`s could be members of the same `Flow`. Note that if the "media rate" in Example 2 is not taken into account then the `Data Object`s are at slightly different  time-points (41.666… vs 42 microseconds) and so the two `TDS`s cannot be members  of the same `Flow`.
+  * Example 3 &ndash; A TDS may locate a Data Object in time as follows:
+
+    * A count of 4 is provided
+    * The units are given as 1/96000 seconds
+
+  * The `TDS` in Example 3 can always  be a member of the same `Flow` as the `TDS` in Example 1. The time units are different but the `Data Object`s are located at the same time-points.
+
 * For the purposes of these statements, a `TDS` is considered to "belong", or be a "member" of, a `Similarity Cluster` even if it is only an "indirect" member. For example: `SC1---SC2---TDS1` &ndash; here `Similarity Cluster` "2" is a member of `Similarity Cluster` "1" and so `TDS` "1" is also considered to "belong", or be a "member" of, `Similarity Cluster` "1".
   * Therefore, no `TDS` belongs to more than one `Flow`, either "directly" or "indirectly".
   * Similarly, no `Flow` belongs to another `Flow`, either "directly" or "indirectly" (in other words, `Flow`s cannot be "nested").
+
 * A consequence of these constraints is that a `Flow` can always be considered as a member of a `Source`.
 
 ## Defining `Flow` without reference to `TDS`
