@@ -1,21 +1,24 @@
-# NMOS Identity & Timing
+# [Work In Progress] AMWA NMOS Identity and Timing Specification
 
-This is a work in progress effort to define an identity and timing model for audio, video and data. Upon completion, this model is intended to be used across the NMOS family of specifications (where applicable).
+This repository contains details of this AMWA Specification, with supporting documentation and examples
 
-The primary focus of the activity is in the area of Sources, Flows and Grains identified within the [JT-NM Reference Architecture](http://www.jt-nm.org/RA-1.0/JT-NMReferenceArchitecturev1.0%20150904%20FINAL.pdf). It will examine their identity and timing characteristics, identifying how aspects should be constrained in order to permit interoperable implementations capable of meeting the needs of the project's user stories. Further details can be found in the [Project Proposal](ProjectProposal.pdf).
+## Getting started
 
-This activity will not define mappings for identity and timing data into transports (such as RTP, HTTP and others), but should be able to provide recommendations for the likely entities that would need to be carried in order to achieve the various user stories which have been proposed.
+Readers are advised to be familiar with:
+* The JT-NM Reference Architecture (http://jt-nm.org/)
+* The [overview of Networked Media Open Specifications](https://github.com/AMWA-TV/nmos)
 
-## Activity Roadmap
+Readers should read the [documentation](docs/) in this repository, starting with the [Overview](docs/1.0.%20Overview.md).
 
-### 1. The Core Model
+## Releases
 
-[Input material](input_material/) has been provided to bootstrap this process. The intention is to define a solid foundation using terminology which is relatively agnostic to existing work. This should define a minimal set of constructs which provide a means to refer to time related media samples using common terminology across a range of existing technologies, both within and outside the scope of Internet Protocol based systems.
+It is recommended that the tagged releases are used as a reference as opposed to the 'master' or development branches of this repository.
 
-### 2. The NMOS Model
+Each version of the specification is available under a v&lt;#MAJOR&gt;.&lt;#MINOR&gt; tag such as 'v1.0'. Once a specification has been released, any updates to its documentation which do not modify the specification will be made available via a v&lt;#MAJOR&gt;.&lt;#MINOR&gt;.&lt;#UPDATE&gt; tag such as 'v1.0.1'.
 
-Using the Core Model as a starting point, consideration will be made of the various user stories submitted to the activity, and how the concepts of Sources and Flows (and others) can help us to achieve these. These entities should then be described using terms defined by the Core Model, along with a set of constraints to make their purpose and permitted usage clear.
+## Contents
 
-### 3. Implementation Considerations & Optimisations
-
-With a model in place, we will need to ensure it is implementable and suitably optimised (or optimisable). This will likely result in advisory material for implementers of hardware and software which uses NMOS APIs and transport mappings.
+* README.md -- This file
+* [docs/1.0. Overview.md](docs/1.0.%20Overview.md) -- Documentation covering the core aspects of the specification and supporting examples. Further topics are covered within the [docs/](docs/) directory
+* [LICENSE](LICENSE) -- Licenses for software and text documents
+* [NOTICE](NOTICE) -- Disclaimer
