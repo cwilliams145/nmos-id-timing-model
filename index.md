@@ -15,25 +15,25 @@ The documentation immediately below, and the links in the page heading, are for 
 Once AMWA has approved a Specification, its documentation and API links will be for the _most recent approved release_ (which may be earlier than what is shown by the default branch on the GitHub repo).
 
 
-## Documentation for master
+## Documentation for v1.0-dev
 
-- [Overview](branches/master/docs/1.0._Overview.md)
-- [Identity and Timing Model](branches/master/docs/2.0._Identity_and_Timing_Model.md)
-  - [Summary and Definitions](branches/master/docs/2.1._Summary_and_Definitions.md)
-  - [Source](branches/master/docs/2.2._Explanation_-_Source.md)
-  - [Flow](branches/master/docs/2.3._Explanation_-_Flow.md)
-  - [Flow Representation](branches/master/docs/2.4._Explanation_-_Flow_Representation.md)
-  - [Timing](branches/master/docs/2.5._Explanation_-_Timing.md)
-  - [Ancestry](branches/master/docs/2.6._Extension_-_Ancestry.md)
-  - [Grouping](branches/master/docs/2.7._Extension_-_Grouping.md)
-- [Practical Guidance for Media](branches/master/docs/3.0._Practical_Guidance_for_Media.md)
-  - [Basic Media Operations](branches/master/docs/3.1._Basic_Media_Operations.md)
-  - [Composite Media Operations](branches/master/docs/3.2._Composite_Media_Operations.md)
-  - [Media Production Chains](branches/master/docs/3.3._Media_Production_Chains.md)
-- [Appendix - Commentary](branches/master/docs/4.0._Appendix_-_Commentary.md)
+- [Overview](branches/v1.0-dev/docs/1.0._Overview.md)
+- [Identity and Timing Model](branches/v1.0-dev/docs/2.0._Identity_and_Timing_Model.md)
+  - [Summary and Definitions](branches/v1.0-dev/docs/2.1._Summary_and_Definitions.md)
+  - [Source](branches/v1.0-dev/docs/2.2._Explanation_-_Source.md)
+  - [Flow](branches/v1.0-dev/docs/2.3._Explanation_-_Flow.md)
+  - [Flow Representation](branches/v1.0-dev/docs/2.4._Explanation_-_Flow_Representation.md)
+  - [Timing](branches/v1.0-dev/docs/2.5._Explanation_-_Timing.md)
+  - [Ancestry](branches/v1.0-dev/docs/2.6._Extension_-_Ancestry.md)
+  - [Grouping](branches/v1.0-dev/docs/2.7._Extension_-_Grouping.md)
+- [Practical Guidance for Media](branches/v1.0-dev/docs/3.0._Practical_Guidance_for_Media.md)
+  - [Basic Media Operations](branches/v1.0-dev/docs/3.1._Basic_Media_Operations.md)
+  - [Composite Media Operations](branches/v1.0-dev/docs/3.2._Composite_Media_Operations.md)
+  - [Media Production Chains](branches/v1.0-dev/docs/3.3._Media_Production_Chains.md)
+- [Appendix - Commentary](branches/v1.0-dev/docs/4.0._Appendix_-_Commentary.md)
 
 ## Branches
 
-[master](branches/master/)
+[v1.0-dev](branches/v1.0-dev/)
 
 ## Tags (Releases)
