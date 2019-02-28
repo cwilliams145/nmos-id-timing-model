@@ -16,19 +16,3 @@ for file in {branches,tags}/*/docs/*.md; do
     perl -ni -e '@parts = split /(\]:.*?\.md)/ ; for ($n = 1; $n < @parts; $n += 2) { $parts[$n] =~ s/%20/_/g; }; print @parts' "$file"
 
 done
-
-echo "Fixing links in HTML rendered APIs"
-
-for file in {branches,tags}/*/html-APIs/*.html; do
-
-    # Change .md links to .html
-    perl -pi -e 's:\.md">:.html">:g;' "$file"
-
-    # Change spaces in links to understores
-    perl -ni -e '@parts = split /(href="..\/docs\/.*?\.html)/; for ($n = 1; $n < @parts; $n += 2) { $parts[$n] =~ s/ /_/g; }; print @parts' "$file"
-
-    # Removing the unwanted "schemas/" in .html links due to raml2html v6 workaround
-    # TODO: check whether this is still needed
-    perl -pi -e 's:schemas/::g;' "$file"
-
-done
