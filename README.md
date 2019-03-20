@@ -1,12 +1,14 @@
-# [Work In Progress] AMWA NMOS Identity and Timing Specification
+# [Work In Progress] AMWA MS-04 NMOS Identity and Timing Model Specification
 
-This repository contains details of this AMWA Specification, with supporting documentation and examples
+AMWA MS-04 is an AMWA Data Model Specification for identity and timing that applies to AMWA NMOS specifications associated with the identification and processing of content.
+
+This repository contains the source of this Specification, and supporting documentation and examples. This is rendered as HTML at <https://amwa-tv.github.io/nmos-id-timing-model/> for the convenience of readers.
 
 ## Getting started
 
 Readers are advised to be familiar with:
-* The JT-NM Reference Architecture (http://jt-nm.org/)
-* The [overview of Networked Media Open Specifications](https://github.com/AMWA-TV/nmos)
+* The [JT-NM Reference Architecture](http://jt-nm.org/RA-1.0/)
+* The [overview of Networked Media Open Specifications](;https://amwa-tv.github.io/nmos)
 
 Readers should read the [documentation](docs/) in this repository, starting with the [Overview](docs/1.0.%20Overview.md).
 
