@@ -7,8 +7,9 @@ This repository contains the source of this Specification, and supporting docume
 ## Getting started
 
 Readers are advised to be familiar with:
-* The [JT-NM Reference Architecture](http://jt-nm.org/RA-1.0/)
-* The [overview of Networked Media Open Specifications](;https://amwa-tv.github.io/nmos)
+- The [JT-NM Reference Architecture](http://jt-nm.org/RA-1.0/)
+- The [overview of Networked Media Open Specifications](https://amwa-tv.github.io/nmos)
+- The [NMOS wiki](https://github.com/AMWA-TV/nmos/wiki)
 
 Readers should read the [documentation](docs/) in this repository, starting with the [Overview](docs/1.0.%20Overview.md).
 
