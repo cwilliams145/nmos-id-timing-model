@@ -1,6 +1,9 @@
 # Don't change this
 theme: jekyll-theme-primer
 
+# AMWA ID
+amwa_id: MS-04
+
 # GitHub project
 baseurl: /nmos-id-timing-model
 
