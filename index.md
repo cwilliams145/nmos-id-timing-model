@@ -45,7 +45,7 @@ Once AMWA has approved a Specification, its documentation and API links will be 
 
 - [Overview](branches/v1.0-dev/docs/1.0._Overview.md)
 - [Identity and Timing Model](branches/v1.0-dev/docs/2.0._Identity_and_Timing_Model.md)
-  - [docs/2.1. Summary and Definitions](branches/v1.0-dev/docs/2.1._Summary_and_Definitions.md)
+  - [Summary and Definitions](branches/v1.0-dev/docs/2.1._Summary_and_Definitions.md)
   - [Source](branches/v1.0-dev/docs/2.2._Explanation_-_Source.md)
   - [Flow](branches/v1.0-dev/docs/2.3._Explanation_-_Flow.md)
   - [Flow Representation](branches/v1.0-dev/docs/2.4._Explanation_-_Flow_Representation.md)
@@ -53,9 +53,9 @@ Once AMWA has approved a Specification, its documentation and API links will be 
   - [Ancestry](branches/v1.0-dev/docs/2.6._Extension_-_Ancestry.md)
   - [Grouping](branches/v1.0-dev/docs/2.7._Extension_-_Grouping.md)
 - [Practical Guidance for Media](branches/v1.0-dev/docs/3.0._Practical_Guidance_for_Media.md)
-  - [docs/3.1. Basic Media Operations](branches/v1.0-dev/docs/3.1._Basic_Media_Operations.md)
-  - [docs/3.2. Composite Media Operations](branches/v1.0-dev/docs/3.2._Composite_Media_Operations.md)
-  - [docs/3.3. Media Production Chains](branches/v1.0-dev/docs/3.3._Media_Production_Chains.md)
+  - [Basic Media Operations](branches/v1.0-dev/docs/3.1._Basic_Media_Operations.md)
+  - [Composite Media Operations](branches/v1.0-dev/docs/3.2._Composite_Media_Operations.md)
+  - [Media Production Chains](branches/v1.0-dev/docs/3.3._Media_Production_Chains.md)
 - [Appendix - Commentary](branches/v1.0-dev/docs/4.0._Appendix_-_Commentary.md)
 
 ## Branches
