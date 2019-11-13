@@ -14,7 +14,7 @@
 ### What does it do?
 
 - Documents a model for identity and timing that applies to AMWA NMOS specifications that apply to content
-- Builds on models of the the JT-NM Reference Archicture
+- Builds on models of the JT-NM Reference Archicture
 
 ### Why does it matter?
 
