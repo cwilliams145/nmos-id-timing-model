@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 8
 install:
-  - npm install remark-cli
+  - npm install remark-cli remark-preset-lint-recommended
 script:
   - .ci-scripts/lint.sh
 branches:
