@@ -1,4 +1,4 @@
-# [Work In Progress] AMWA NMOS Identity and Timing Specification
+# AMWA MS-04 NMOS Identity and Timing Specification [Work In Progress]
 
 This repository contains details of this AMWA Specification, with supporting documentation and examples
 
