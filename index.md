@@ -4,7 +4,7 @@
 
 | Repository | Default Branch | Lint (default) | Render (all) |
 | --- | --- | --- | --- |
-| [nmos-id-timing-model](https://github.com/AMWA-TV/nmos-id-timing-model) | v1.0-dev | <a href="https://travis-ci.com/AMWA-TV/nmos-id-timing-model?branch=v1.0-dev"><img src="https://travis-ci.com/AMWA-TV/nmos-id-timing-model.svg?branch=v1.0-dev" width="100"/></a> | <a href="https://travis-ci.com/AMWA-TV/nmos-id-timing-model?branch=gh-pages"><img src="https://travis-ci.com/AMWA-TV/nmos-id-timing-model.svg?branch=gh-pages" width="100"/></a> |
+| [nmos-id-timing-model](https://github.com/AMWA-TV/nmos-id-timing-model) | v1.0.x | <a href="https://travis-ci.com/AMWA-TV/nmos-id-timing-model?branch=v1.0.x"><img src="https://travis-ci.com/AMWA-TV/nmos-id-timing-model.svg?branch=v1.0.x" width="100"/></a> | <a href="https://travis-ci.com/AMWA-TV/nmos-id-timing-model?branch=gh-pages"><img src="https://travis-ci.com/AMWA-TV/nmos-id-timing-model.svg?branch=gh-pages" width="100"/></a> |
 
 
 ---
@@ -38,27 +38,29 @@ See [here](https://amwa-tv.github.io/nmos) for an overview of NMOS specification
 
 The formal specification is provided in [this GitHub repository](https://github.com/AMWA-TV/nmos-id-timing-model). These pages provide supporting documentation and HTML renders of the APIs (which are specified in RAML and JSON Schema).
 
-The links to documentation, API and examples below and for DOCS and SPEC in the page menu bar are for this release (tag) or branch: **branches/v1.0-dev**. Links to [other releases (tags)](tags/) and [other branches](branches/) appear later in the page, or in the VERSIONS menu.
+The links to documentation, API and examples below and for DOCS and SPEC in the page menu bar are for this release (tag) or branch: **tags/v1.0**. Links to [other releases (tags)](tags/) and [other branches](branches/) appear later in the page, or in the VERSIONS menu.
 
-## Documentation for branch v1.0-dev
+## Documentation for release/tag v1.0
 
-- [Overview](branches/v1.0-dev/docs/1.0._Overview.md)
-- [Identity and Timing Model](branches/v1.0-dev/docs/2.0._Identity_and_Timing_Model.md)
-  - [Summary and Definitions](branches/v1.0-dev/docs/2.1._Summary_and_Definitions.md)
-  - [Source](branches/v1.0-dev/docs/2.2._Explanation_-_Source.md)
-  - [Flow](branches/v1.0-dev/docs/2.3._Explanation_-_Flow.md)
-  - [Flow Representation](branches/v1.0-dev/docs/2.4._Explanation_-_Flow_Representation.md)
-  - [Timing](branches/v1.0-dev/docs/2.5._Explanation_-_Timing.md)
-  - [Ancestry](branches/v1.0-dev/docs/2.6._Extension_-_Ancestry.md)
-  - [Grouping](branches/v1.0-dev/docs/2.7._Extension_-_Grouping.md)
-- [Practical Guidance for Media](branches/v1.0-dev/docs/3.0._Practical_Guidance_for_Media.md)
-  - [Basic Media Operations](branches/v1.0-dev/docs/3.1._Basic_Media_Operations.md)
-  - [Composite Media Operations](branches/v1.0-dev/docs/3.2._Composite_Media_Operations.md)
-  - [Media Production Chains](branches/v1.0-dev/docs/3.3._Media_Production_Chains.md)
-- [Appendix - Commentary](branches/v1.0-dev/docs/4.0._Appendix_-_Commentary.md)
+- [Overview](tags/v1.0/docs/1.0._Overview.md)
+- [Identity and Timing Model](tags/v1.0/docs/2.0._Identity_and_Timing_Model.md)
+  - [Summary and Definitions](tags/v1.0/docs/2.1._Summary_and_Definitions.md)
+  - [Source](tags/v1.0/docs/2.2._Explanation_-_Source.md)
+  - [Flow](tags/v1.0/docs/2.3._Explanation_-_Flow.md)
+  - [Flow Representation](tags/v1.0/docs/2.4._Explanation_-_Flow_Representation.md)
+  - [Timing](tags/v1.0/docs/2.5._Explanation_-_Timing.md)
+  - [Ancestry](tags/v1.0/docs/2.6._Extension_-_Ancestry.md)
+  - [Grouping](tags/v1.0/docs/2.7._Extension_-_Grouping.md)
+- [Practical Guidance for Media](tags/v1.0/docs/3.0._Practical_Guidance_for_Media.md)
+  - [Basic Media Operations](tags/v1.0/docs/3.1._Basic_Media_Operations.md)
+  - [Composite Media Operations](tags/v1.0/docs/3.2._Composite_Media_Operations.md)
+  - [Media Production Chains](tags/v1.0/docs/3.3._Media_Production_Chains.md)
+- [Appendix - Commentary](tags/v1.0/docs/4.0._Appendix_-_Commentary.md)
 
 ## Branches
 
-[v1.0-dev](branches/v1.0-dev/)
+[v1.0.x](branches/v1.0.x/)
 
 ## Releases/Tags
+
+[v1.0](tags/v1.0/)

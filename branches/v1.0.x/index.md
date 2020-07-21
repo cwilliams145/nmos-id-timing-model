@@ -3,7 +3,7 @@
 # {{ site.github.project_tagline }}
 
 
-## Documentation for branch v1.0-dev
+## Documentation for branch v1.0.x
 
 - [Overview](docs/1.0._Overview.md)
 - [Identity and Timing Model](docs/2.0._Identity_and_Timing_Model.md)
