@@ -1,4 +1,4 @@
-# [Work In Progress] AMWA MS-04 NMOS Identity and Timing Model Specification
+# AMWA MS-04 NMOS Identity and Timing Model Specification
 
 AMWA MS-04 is an AMWA Data Model Specification for identity and timing that applies to AMWA NMOS specifications associated with the identification and processing of content.
 
