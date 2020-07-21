@@ -2,8 +2,6 @@
 
 AMWA MS-04 is an AMWA Data Model Specification for identity and timing that applies to AMWA NMOS specifications associated with the identification and processing of content.
 
-This repository contains the source of this Specification, and supporting documentation and examples. This is rendered as HTML at <https://amwa-tv.github.io/nmos-id-timing-model/> for the convenience of readers.
-
 ## Getting started
 
 Readers are advised to be familiar with:
@@ -12,6 +10,8 @@ Readers are advised to be familiar with:
 - The [NMOS wiki](https://github.com/AMWA-TV/nmos/wiki)
 
 Readers should read the [documentation](docs/) in this repository, starting with the [Overview](docs/1.0.%20Overview.md).
+
+> HTML rendered versions of all NMOS Specifications are available on the [NMOS GitHub pages](https://amwa-tv.github.io/nmos)
 
 ## Releases
 

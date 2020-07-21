@@ -67,6 +67,6 @@ Below are examples of `Ancestry` relationships specified using a simple notation
 * the Source relationship follows from the above Flow relationship: **{Source A} is {Source B} time shifted by T**
 * Flow A is a transcode of Flow C. The intermediate Flow B, which is Flow A decoded, is not recorded in the relationship: **{Flow A} is a transcode of {Flow C}**
 * Flow A is a lossy transcode of another Flow in the same Source, resulting in a new generation number: **{Flow A} generation number is 2**
-* a time range of Source B was converted to monochrome video to produce a time range in Source A: **{Source A, [Ta1, Ta2]} is {Source B, [Tb1, Tb2]} converted to monochrome**
-* a time range of Source B and Source C were mixed together to produced a time range in Source A: **{Source A, [Ta1, Ta2]} is a mix of ({Source B, [Tb1, Tb2]} and {Source C, [Tc1, Tc2]})**
-* Source A switches between Source B and Source C. An Ancestry relationship is recorded for each time value or time range: **{Source A, [Ta1, Ta2]} is {Source B, [Tb1, Tb2]}, {Source A, [Ta3]} is {Source C, [Tc3]}, {Source A, [Ta4]} is {Source B, [Tb4]}, etc.**
+* a time range of Source B was converted to monochrome video to produce a time range in Source A: **{Source A, \[Ta1, Ta2\]} is {Source B, \[Tb1, Tb2\]} converted to monochrome**
+* a time range of Source B and Source C were mixed together to produced a time range in Source A: **{Source A, \[Ta1, Ta2\]} is a mix of ({Source B, \[Tb1, Tb2\]} and {Source C, \[Tc1, Tc2\]})**
+* Source A switches between Source B and Source C. An Ancestry relationship is recorded for each time value or time range: **{Source A, \[Ta1, Ta2\]} is {Source B, \[Tb1, Tb2\]}, {Source A, \[Ta3\]} is {Source C, \[Tc3\]}, {Source A, \[Ta4\]} is {Source B, \[Tb4\]}, etc.**
