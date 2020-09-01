@@ -57,10 +57,10 @@ The links to documentation, API and examples below and for DOCS and SPEC in the 
   - [Media Production Chains](tags/v1.0/docs/3.3._Media_Production_Chains.md)
 - [Appendix - Commentary](tags/v1.0/docs/4.0._Appendix_-_Commentary.md)
 
-## Branches
+## Development Branches
 
 [v1.0.x](branches/v1.0.x/)
 
-## Releases/Tags
+##  Published Releases/Tags
 
 [v1.0](tags/v1.0/)

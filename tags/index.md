@@ -2,6 +2,6 @@
 
 # {{ site.github.project_tagline }}
 
-## Releases/Tags
+## Published Releases/Tags
 
 [v1.0](v1.0/)
