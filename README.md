@@ -1,5 +1,8 @@
 # AMWA MS-04 NMOS Identity and Timing Model Specification
 
+[![Lint Status](https://github.com/AMWA-TV/nmos-id-timing-model/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-id-timing-model/actions?query=workflow%3ALint)
+[![Render Status](https://github.com/AMWA-TV/nmos-id-timing-model/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-id-timing-model/actions?query=workflow%3ARender)
+
 AMWA MS-04 is an AMWA Data Model Specification for identity and timing that applies to AMWA NMOS specifications associated with the identification and processing of content.
 
 ## Getting started
