@@ -4,7 +4,7 @@
 
 | Repository | Default Branch | Lint (default) | Render (all) |
 | --- | --- | --- | --- |
-| [nmos-id-timing-model](https://github.com/AMWA-TV/nmos-id-timing-model) | v1.0.x | <a href="https://travis-ci.com/AMWA-TV/nmos-id-timing-model?branch=v1.0.x"><img src="https://travis-ci.com/AMWA-TV/nmos-id-timing-model.svg?branch=v1.0.x" width="100"/></a> | <a href="https://travis-ci.com/AMWA-TV/nmos-id-timing-model?branch=gh-pages"><img src="https://travis-ci.com/AMWA-TV/nmos-id-timing-model.svg?branch=gh-pages" width="100"/></a> |
+| [nmos-id-timing-model](https://github.com/AMWA-TV/nmos-id-timing-model) | v1.0.x | [![Lint Status](https://github.com/AMWA-TV/nmos-id-timing-model/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-id-timing-model/actions?query=workflow%3ALint) | [![Render Status](https://github.com/AMWA-TV/nmos-id-timing-model/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-id-timing-model/actions?query=workflow%3ARender) |
 
 
 ---
